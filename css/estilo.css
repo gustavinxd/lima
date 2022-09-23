@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#container{
+
+    margin: 0 auto;
+    width: 400px;
+    height: 800px;
+    background-color: #f9f8f6;
+    
+}
+#barra{
+    width: 400px;
+    height: 3px;
+    background-color: #ffbb12;
+    margin-bottom: 12px;
+}
+#quadrado{
+    width: 25px;
+    height: 25px;
+    background-color: #ffbb12;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+#inscreva{
+    font-family: 'roboto', 'sans-serif';
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: -30px;
+    color: #464237;
+    
+}
+#b1{
+    width: 20px;
+    height: 2px;
+    margin-left: 350px;
+    margin-top: -46px;
+    margin-bottom: 63px;
+    border-radius: 5px;
+    background-color: #464237;
+    
+}
+#b2{
+    width: 15px;
+    height: 2px;
+    margin-left: 355px;
+    margin-top: -80px;
+    margin-bottom: 88px;
+    border-radius: 5px;
+    background-color: #464237;
+    
+}
+#b3{
+    width: 20px;
+    height: 2px;
+    margin-left: 350px;
+    margin-top: -110px;
+    margin-bottom: 113px;
+    border-radius: 5px;
+    background-color: #464237;
+    
+}
+#fundo{
+    margin: 0 auto;
+    width: 340px;
+    height: 620px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: -75px;
+    padding-top: 20px;
+
+}
+#label_nome{
+    margin-left: 20px;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 18px;
+    font-weight: bold;
+
+}
+#input_nome{
+    width: 300px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 2px #ffbb12;
+    border: none;
+    margin-left: 20px;
+    margin-top: 5px;
+    outline: none;
+    margin-bottom: 20px;
+}
+#label_email{
+    margin-left: 20px;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 18px;
+    font-weight: bold;
+}
+#input_email{
+    width: 300px;
+    height: 35px;
+    background-color: #f9f8f6;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 1px #d2cec5;
+    border: none;
+    margin-left: 20px;
+    margin-top: 5px;
+    outline: none;
+    margin-bottom: 20px;
+}
+#label_senha{
+    margin-left: 20px;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 18px;
+    font-weight: bold;
+}
+#input_senha{
+    width: 300px;
+    height: 35px;
+    background-color: #f9f8f6;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 1px #d2cec5;
+    border: none;
+    margin-left: 20px;
+    margin-top: 5px;
+    outline: none;
+    margin-bottom: 4px;
+}
+#esconder{
+    margin-left: 295px;
+    margin-top: -47px;
+    margin-bottom: 28px;
+    opacity: 35%;
+}
+#label_cep{
+    margin-left: 20px;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+#input_cep{
+    width: 135px;
+    height: 35px;
+    background-color: #f9f8f6;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 1px #d2cec5;
+    border: none;
+    margin-left: 20px;
+    margin-top: 5px;
+    outline: none;
+    margin-bottom: 10px;
+    
+}
+#label_numero{
+    margin-left: 125px;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+#input_numero{
+    width: 135px;
+    height: 35px;
+    background-color: #f9f8f6;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 1px #d2cec5;
+    border: none;
+    margin-left: 20px;
+    margin-top: -10px;
+    outline: none;
+    margin-bottom: 20px;
+}
+#label_rua{
+    margin-left: 20px;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 18px;
+    font-weight: bold;
+}
+#input_rua{
+    width: 300px;
+    height: 35px;
+    background-color: #f9f8f6;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 1px #d2cec5;
+    border: none;
+    margin-left: 20px;
+    margin-top: 5px;
+    outline: none;
+    margin-bottom: 20px;
+}
+#label_cidade{
+    margin-left: 20px;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 18px;
+    font-weight: bold;
+}
+#cidade{
+    width: 300px;
+    height: 35px;
+    background-color: #f9f8f6;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 1px #d2cec5;
+    border: none;
+    margin-left: 20px;
+    margin-top: 5px;
+    outline: none;
+    margin-bottom: 4px;
+}
+#label_termos{
+    font-family: 'roboto', 'sans-serif';
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 0px;
+}
+#input_termos{
+    width: 20px;
+    height: 20px;
+    background-color: #f9f8f6;
+    margin-left: 20px;
+    margin-top: 15px;
+    
+}
+#input_cadastrar{
+    width: 175px;
+    height: 50px;
+    background-color: #ffbb12;
+    border-radius: 5px;
+    font-family: 'roboto', 'sans-serif';
+    font-weight: bold;
+    font-size: 16px;
+    color: #764701;
+    border: none;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 4px;
+
+}
+
